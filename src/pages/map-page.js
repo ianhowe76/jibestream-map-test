@@ -1,9 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import CentreMap from '../components/centre-map';
 
 const MapPage = () => (
   <div>
-    <p>Map goes here</p>
+    <CentreMap />
     <Link to="/no-map">Hide Map</Link>
   </div>
 )
